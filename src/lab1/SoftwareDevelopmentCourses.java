@@ -11,4 +11,7 @@ package lab1;
 public abstract class SoftwareDevelopmentCourses {
     String studentName;
     String teacherName;
+    
+    abstract void setStudentName(String studentName);
+    abstract void setTeacherName(String teacherName);
 }

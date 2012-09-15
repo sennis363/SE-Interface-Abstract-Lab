@@ -7,10 +7,10 @@ public class IntroToProgrammingCourse extends SoftwareDevelopmentCourses{
     private String courseNumber;
     private double credits;
 
-    public IntroToProgrammingCourse(String courseName, String courseNumber) {
-        this.setCourseName(courseName);
-        this.setCourseNumber(courseNumber);
-    }
+//    public IntroToProgrammingCourse(String courseName, String courseNumber) {
+//        this.setCourseName(courseName);
+//        this.setCourseNumber(courseNumber);
+//    }
 
     public String getCourseNumber() {
         return courseNumber;
@@ -49,6 +49,18 @@ public class IntroToProgrammingCourse extends SoftwareDevelopmentCourses{
             System.exit(0);
         }
         this.courseName = courseName;
+    }
+
+    @Override
+    void setStudentName(String studentName) {
+        //validate
+        this.studentName = studentName;
+    }
+
+    @Override
+    void setTeacherName(String teacherName) {
+        //validate
+        this.teacherName = teacherName;
     }
 
     
