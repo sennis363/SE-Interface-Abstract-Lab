@@ -3,7 +3,6 @@ package lab1;
 public class Startup {
     public static void main(String[] args) {
         AdvancedJavaCourse advJava1 = new AdvancedJavaCourse();
-        SoftwareDevelopmentCourse test = new AdvancedJavaCourse();
         IntroJavaCourse intJava1 = new IntroJavaCourse();
         IntroToProgrammingCourse intProg1 = new IntroToProgrammingCourse();
         
@@ -16,8 +15,6 @@ public class Startup {
         intProg1.setCourseName("Intro to Programming");
         intProg1.setCourseNumber("99999");
         
-        test.setPrerequisites("BLARG");
-        
         System.out.println("Course : " + advJava1.getCourseName());
         System.out.println("Course # : " + advJava1.getCourseNumber());
         System.out.println("");
@@ -26,8 +23,6 @@ public class Startup {
         System.out.println("");
         System.out.println("Course : " + intProg1.getCourseName());
         System.out.println("Course # : " + intProg1.getCourseNumber());
-        
-        System.out.println("TEST : " + test.getPrerequisites());
         /*I like how it is harder for the program to fail due to the fact that
          * all abstract methods must be overidden. The one thing I don't like
          * about this is having to actually overide all of the abstract methods,
