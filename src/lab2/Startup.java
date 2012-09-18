@@ -14,5 +14,9 @@ public class Startup {
         IntroToProgrammingCourse intToProg = new IntroToProgrammingCourse();
         intToProg.setMajor("Even more programming");
         System.out.println(intToProg.getMajor());
+        /*I like how only the classes that implement the interface must have
+        *overidden methods. I am not too fond of determining what should be
+        * implemented where.
+        */
     }
 }

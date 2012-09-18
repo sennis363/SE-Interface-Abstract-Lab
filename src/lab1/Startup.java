@@ -27,5 +27,11 @@ public class Startup {
         System.out.println("");
         System.out.println("Course : " + intProg1.getCourseName());
         System.out.println("Course # : " + intProg1.getCourseNumber());
+        /*I like how it is harder for the program to fail due to the fact that
+         * all abstract methods must be overidden. The one thing I don't like
+         * about this is having to actually overide all of the abstract methods,
+         * which could get troublesome down the road when I would have to 
+         * overide more then just 1 or 2 methods in each subclass.
+        */
     }
 }
